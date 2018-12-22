@@ -17,3 +17,11 @@ using Google Cloud SDK:
 --trigger-topic <pub-sub-topic> --timeout 540`
 
 where `<pub-sub-topic>` is name of Pub/Sub topic which triggers Cloud Function.
+
+
+## BigQuery Public Datasets Metadata table
+table is public and it can be accessed under
+
+project: adventures-on-gcp
+dataset: bigquery_public_datasets
+table: bq_public_metadata

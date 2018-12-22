@@ -1,0 +1,7 @@
+PROJECT_ID = 'adventures-on-gcp'  # GCP project under which everything runs (GCS and BQ access)
+GCS_BUCKET = 'adventures-on-gcp'  # bucket name where temporary file is uploaded
+
+
+OUT_DATASET_ID = 'bigquery_public_datasets'  # name of dataset where output table will be created
+OUT_TABLE_ID = 'bq_public_metadata'  # name of table where metadata will be stored
+

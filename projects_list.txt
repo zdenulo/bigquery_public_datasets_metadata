@@ -1,0 +1,8 @@
+bigquery-public-data
+the-psf
+gdelt-bq
+properati-data-public
+patents-public-data
+listenbrainz
+weathersource-com
+lookerdata

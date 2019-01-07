@@ -8,17 +8,16 @@ from google.cloud import storage
 
 from settings import *
 
-projects = [
-    'bigquery-public-data',
-    # 'the-psf'  # python
-    # 'gdelt-bq',
-
-]
-
 
 def get_bq_data():
     """Gets metadata from public BigQuery datasets"""
+
+    with open('projects_list.txt') as f:
+        projects = f.readlines()
+    projects = [p.strip() for p in projects if p]
+
     data = []
+
     for project in projects:
         client = bigquery.Client(project=project)
         datasets = client.list_datasets()

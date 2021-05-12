@@ -6,3 +6,4 @@ patents-public-data
 listenbrainz
 weathersource-com
 lookerdata
+bigquery-data-connectors
